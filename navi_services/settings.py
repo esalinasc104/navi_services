@@ -75,9 +75,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'NAME': 'navi',
-        'HOST': 'mongodb+srv://navi:o6wJQCdnPEccwuPg@diez-cuatro-blwgr.mongodb.net/admin?retryWrites=true&w=majority',
-        'USER': 'navi',
-        'PASSWORD': 'o6wJQCdnPEccwuPg',
+        'HOST': 'localhost:27017'
+        # 'HOST': 'mongodb+srv://navi:o6wJQCdnPEccwuPg@diez-cuatro-blwgr.mongodb.net/admin?retryWrites=true&w=majority',
+        # 'USER': 'navi',
+        # 'PASSWORD': 'o6wJQCdnPEccwuPg',
     }
 }
 
