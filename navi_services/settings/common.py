@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/2.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.2/ref/settings/
 """
-
+import logging.config
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -105,3 +105,51 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 BOOTSTRAP_ADMIN_SIDEBAR_MENU = False
+
+LOG_DIR = "logs/"
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
+
+STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static")
+
+LOGGING_LEVEL = os.environ.setdefault('LOGGING_LEVEL', 'INFO')
+
+LOGGING_CONFIG = None
+
+logging.config.dictConfig({
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'console': {
+            'format': '{asctime} {module} {process:d} {thread:d} {levelname} {message}',
+            'style': '{',
+        },
+        'file': {
+            'format': '{asctime} {module} {process:d} {thread:d} {levelname} {message}',
+            'style': '{',
+        }
+    },
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+            'formatter': 'console'
+        },
+        'file': {
+            'level': LOGGING_LEVEL,
+            'class': 'logging.handlers.TimedRotatingFileHandler',
+            'filename': os.path.join(LOG_DIR, 'navi_services.log'),
+            'when': 'midnight',
+            'interval': 1,
+            'formatter': 'file',
+            'backupCount': 30,
+        }
+    },
+    'loggers': {
+        '': {
+            'level': LOGGING_LEVEL,
+            'handlers': ['console', 'file']
+        }
+    }
+})
