@@ -11,7 +11,7 @@ COPY requirements.txt ./
 # Get pip to download and install requirements:
 RUN pip install --no-cache-dir -r requirements.txt
 RUN mkdir navi_services/static
-RUN mkdir navi_services/logs
+RUN mkdir logs
 #Prepare database
 #RUN python manage.py migrate --settings=$DJANGO_ENV
 # Expose ports
