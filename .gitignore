@@ -80,7 +80,7 @@ docs/_build/
 # PyBuilder
 target/
 
-
+static
 ### Django ###
 *.log
 *.pot

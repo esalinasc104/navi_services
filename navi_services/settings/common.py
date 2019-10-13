@@ -26,6 +26,19 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+STATIC_URL = '/static/'
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
+
+STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static")
+
+STATICFILES_FINDERS = [
+    # ...
+    "django.contrib.staticfiles.finders.AppDirectoriesFinder",
+    # ...
+]
 # Application definition
 
 INSTALLED_APPS = [
@@ -103,20 +116,17 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-STATIC_URL = '/static/'
+
 BOOTSTRAP_ADMIN_SIDEBAR_MENU = False
 
 LOG_DIR = "logs/"
 
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
-)
-
-STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static")
-
 LOGGING_LEVEL = os.environ.setdefault('LOGGING_LEVEL', 'INFO')
 
 LOGGING_CONFIG = None
+
+if not os.path.isdir(LOG_DIR):
+    os.mkdir(LOG_DIR)
 
 logging.config.dictConfig({
     'version': 1,

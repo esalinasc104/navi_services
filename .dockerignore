@@ -9,7 +9,7 @@ logs?
 # SQLite
 *.sqlite?
 
-
+static
 .DS_Store
 .gitignore
 .git
