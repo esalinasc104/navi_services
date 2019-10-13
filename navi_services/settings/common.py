@@ -69,20 +69,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'navi_services.wsgi.application'
 
-# Database
-# https://docs.djangoproject.com/en/2.2/ref/settings/#databases
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'djongo',
-        'NAME': 'navi',
-        'HOST': 'localhost:27017'
-        # 'HOST': 'mongodb+srv://navi:o6wJQCdnPEccwuPg@diez-cuatro-blwgr.mongodb.net/admin?retryWrites=true&w=majority',
-        # 'USER': 'navi',
-        # 'PASSWORD': 'o6wJQCdnPEccwuPg',
-    }
-}
-
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
 

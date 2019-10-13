@@ -1,0 +1,22 @@
+# logs
+*/logs*
+*/*/logs*
+logs?
+
+# README
+*.md
+
+# SQLite
+*.sqlite?
+
+Dockerfile
+.DS_Store
+.gitignore
+.git
+.idea
+*.iml
+*/venv*
+
+*/static*
+zones_bk.json
+geo_ref.json
