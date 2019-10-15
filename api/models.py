@@ -1,4 +1,5 @@
 # Create your models here.
+from django import forms
 from djongo import models
 
 
@@ -49,15 +50,16 @@ class Zones(models.Model):
     class Meta:
         db_table = "zones"
         verbose_name = "Zona"
+        ordering = ["name"]
 
 
 class DangerRangeZone(models.Model):
     danger_range = [
-        (1, "Todo para ir bien"),
-        (2, "Conduzcase con cuidado"),
-        (3, "Mantengase alerta"),
-        (4, "Si puede evite la zona"),
-        (5, "No ingrese a la zona"),
+        (1, "Nivel 1 - Todo para ir bien"),
+        (2, "Nivel 2 - Conduzcase con cuidado"),
+        (3, "Nivel 3 - Mantengase alerta"),
+        (4, "Nivel 4 - Si puede evite la zona"),
+        (5, "Nivel 5 - No ingrese a la zona"),
     ]
 
     _id = models.ObjectIdField()
@@ -91,6 +93,23 @@ class DangerRangeZone(models.Model):
 
     def __str__(self):
         return self.zone.name
+
+    @property
+    def location(self):
+        return '' + self.zone.location.name + "\n si cambias la zona, guarda nuevamente para actualizar este valor automaticamente"
+
+
+class DangerRangeZoneForm(forms.ModelForm):
+    class Meta:
+        model = DangerRangeZone
+        fields = "__all__"
+
+    def filter_zones(self):
+        return Zones.objects.filter(location__code__startswith="10")
+
+    def __init__(self, *args, **kwargs):
+        super(DangerRangeZoneForm, self).__init__(*args, **kwargs)
+        self.fields['zone'].queryset = self.filter_zones()
 
 
 class CommentsZone(models.Model):

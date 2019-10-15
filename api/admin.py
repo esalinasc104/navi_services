@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Zones, CommentsZone, GeoRef, DangerRangeZone
+from api.models import Zones, CommentsZone, GeoRef, DangerRangeZone, DangerRangeZoneForm
 
 
 # Register your models here.
@@ -9,6 +9,9 @@ class ZonesAdmin(admin.ModelAdmin):
     list_display = ('name', 'location', 'state', 'geo_type')
     search_fields = ['name', 'location__name']
     list_filter = ('state', 'geo_type')
+
+    def get_queryset(self, request):
+        return Zones.objects.filter(location__code__startswith="10")
 
 
 @admin.register(CommentsZone)
@@ -24,10 +27,14 @@ class GeoRefAdmin(admin.ModelAdmin):
 
 @admin.register(DangerRangeZone)
 class DangerRangeZoneAdmin(admin.ModelAdmin):
+    add_form_template = "admin/danger_range_add_template.html"
     view_on_site = False
+    form = DangerRangeZoneForm
+    autocomplete_fields = ['zone']
+    readonly_fields = ['location']
     fieldsets = (
         ('Zona a reportar', {
-            'fields': ['zone']
+            'fields': ['zone', 'location']
         }),
         ('Nivel de inseguridad', {
             'fields': ['code_danger']
@@ -48,4 +55,5 @@ class DangerRangeZoneAdmin(admin.ModelAdmin):
         })
     )
 
-
+    def add_view(self, request, form_url='', extra_context=None):
+        return super(DangerRangeZoneAdmin, self).add_view(request, form_url, extra_context)
