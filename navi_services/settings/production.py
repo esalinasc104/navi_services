@@ -11,8 +11,6 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'NAME': 'navi',
-        'HOST': 'mongodb+srv://navi:o6wJQCdnPEccwuPg@diez-cuatro-blwgr.mongodb.net/admin?retryWrites=true&w=majority',
-        'USER': 'navi',
-        'PASSWORD': 'o6wJQCdnPEccwuPg',
+        'HOST': 'ec2-34-220-174-124.us-west-2.compute.amazonaws.com:27017'
     }
 }
