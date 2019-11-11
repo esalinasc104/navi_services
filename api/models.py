@@ -10,6 +10,12 @@ class CoordinateZone(models.Model):
     class Meta:
         abstract = True
 
+    def as_json(self):
+        return dict(
+            lng=self.longitude,
+            lat=self.latitude
+        )
+
 
 class GeoRef(models.Model):
     code = models.CharField(max_length=8, editable=False, primary_key=True)
@@ -17,6 +23,12 @@ class GeoRef(models.Model):
 
     def __str__(self):
         return self.name
+
+    def as_json(self):
+        return dict(
+            code=self.code,
+            name=self.name
+        )
 
     class Meta:
         db_table = "geo_ref"
@@ -43,6 +55,16 @@ class Zones(models.Model):
     state = models.CharField(max_length=2, choices=zones_state_choices, default="2")
     geo_type = models.CharField(max_length=2, choices=zone_type, default="1")
     coordinates = models.ArrayModelField(model_container=CoordinateZone, blank=True)
+
+    def as_json(self):
+        return dict(
+            _id=str(self._id),
+            name=self.name,
+            location=self.location.as_json(),
+            state=self.state,
+            geo_type=self.geo_type,
+            coordinates=[ob.as_json() for ob in self.coordinates]
+        )
 
     def __str__(self):
         return self.name

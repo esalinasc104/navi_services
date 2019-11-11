@@ -1,0 +1,1 @@
+sudo docker run -p 8000:8000 -t -i  -v /var/navi-services/production.py:/app/navi-services/settings/production.py  --net="host" asce25/navi_services:latest

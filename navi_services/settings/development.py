@@ -11,6 +11,6 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'NAME': 'navi',
-        'HOST': 'localhost:27017'
+        'HOST': 'ec2-34-220-174-124.us-west-2.compute.amazonaws.com:27017'
     }
 }

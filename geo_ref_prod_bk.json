@@ -1,0 +1,167 @@
+{"_id":{"$oid":"5d499ef418e37cc9b2640642"},"code":"0201","name":"VILLA VICTORIA SENSUNTEPEQUE"}
+{"_id":{"$oid":"5d44af507828cd6387957c48"},"code":"03","name":"CHALATENANGO"}
+{"_id":{"$oid":"5d499f0418e37cc9b264065e"},"code":"0403","name":"COJUTEPEQ"}
+{"_id":{"$oid":"5d44af3e7828cd6387957947"},"code":"02","name":"CABANAS"}
+{"_id":{"$oid":"5d499ef218e37cc9b264063e"},"code":"0104","name":"SAN JOSE EL NARANJO"}
+{"_id":{"$oid":"5d499eee18e37cc9b2640638"},"code":"0101","name":"JUJUTLA"}
+{"_id":{"$oid":"5d44b0007828cd638795a4d3"},"code":"12","name":"SANTA ANA"}
+{"_id":{"$oid":"5d44af6c7828cd6387958311"},"code":"04","name":"CUSCATLAN"}
+{"_id":{"$oid":"5d44afd07828cd6387959aab"},"code":"08","name":"MORAZAN"}
+{"_id":{"$oid":"5d44afca7828cd6387959806"},"code":"07","name":"LA UNION"}
+{"_id":{"$oid":"5d44afc07828cd6387959679"},"code":"06","name":"LA PAZ"}
+{"_id":{"$oid":"5d44af2b7828cd6387957480"},"code":"01","name":"AHUCHAPAN"}
+{"_id":{"$oid":"5d44b0137828cd638795a969"},"code":"14","name":"USULUTAN"}
+{"_id":{"$oid":"5d499ef718e37cc9b2640646"},"code":"0203","name":"GUACOTECTI"}
+{"_id":{"$oid":"5d499f0318e37cc9b264065c"},"code":"0402","name":"COJUTEPQUE"}
+{"_id":{"$oid":"5d499f1918e37cc9b2640680"},"code":"0507","name":"ANTIGUO CUSCATLAN"}
+{"_id":{"$oid":"5d499f1c18e37cc9b2640684"},"code":"0509","name":"LA LIBERTAD"}
+{"_id":{"$oid":"5d499f1e18e37cc9b2640688"},"code":"0511","name":"MELARA"}
+{"_id":{"$oid":"5d44afda7828cd6387959c57"},"code":"09","name":"SAN MIGUEL"}
+{"_id":{"$oid":"5d499ef918e37cc9b2640648"},"code":"0204","name":"SAN ESTEBAN CATARINA"}
+{"_id":{"$oid":"5d499f0018e37cc9b2640656"},"code":"0302","name":"LA REYNA"}
+{"_id":{"$oid":"5d499f0b18e37cc9b264066a"},"code":"0409","name":"TENANCINGO"}
+{"_id":{"$oid":"5d499efd18e37cc9b2640650"},"code":"0208","name":"SAN LORENZO SENSUNTEPEQUE"}
+{"_id":{"$oid":"5d499efe18e37cc9b2640652"},"code":"0209","name":"GUACOTECTI SENSUNTEPEQUE"}
+{"_id":{"$oid":"5d499f0e18e37cc9b2640670"},"code":"0412","name":"TENANCINGO STA CRUZ MICHAPA"}
+{"_id":{"$oid":"5d499eef18e37cc9b264063a"},"code":"0102","name":"SAN FRANCISCO MENENDEZ"}
+{"_id":{"$oid":"5d499ef518e37cc9b2640644"},"code":"0202","name":"SAN ESTEBAN CATARINA SENSUNTEPEQUE"}
+{"_id":{"$oid":"5d499f0918e37cc9b2640666"},"code":"0407","name":"EL CARMENCUSCATLAN"}
+{"_id":{"$oid":"5d499f1518e37cc9b2640678"},"code":"0503","name":"CUISNAHUAT/MIZATA"}
+{"_id":{"$oid":"5d499efb18e37cc9b264064c"},"code":"0206","name":"PUEBLA SENSUNTEPEQUE"}
+{"_id":{"$oid":"5d499eff18e37cc9b2640654"},"code":"0301","name":"AGUA CALIENTE"}
+{"_id":{"$oid":"5d499f0218e37cc9b264065a"},"code":"0401","name":"COJUTEPEQUE"}
+{"_id":{"$oid":"5d499f2818e37cc9b264069a"},"code":"0608","name":"LA HERRADURA"}
+{"_id":{"$oid":"5d499f0618e37cc9b2640662"},"code":"0405","name":"EL CARMEN CUSCATLAN"}
+{"_id":{"$oid":"5d44afb67828cd63879594af"},"code":"05","name":"LA LIBERTAD"}
+{"_id":{"$oid":"5d499f0118e37cc9b2640658"},"code":"0303","name":"TEJUTLA"}
+{"_id":{"$oid":"5d499f0518e37cc9b2640660"},"code":"0404","name":"SANTA CRUZ ANALQUITO"}
+{"_id":{"$oid":"5d499f0d18e37cc9b264066e"},"code":"0411","name":"SANTA CRUZ MICHAPA"}
+{"_id":{"$oid":"5d499f1818e37cc9b264067e"},"code":"0506","name":"SANTA TECLA"}
+{"_id":{"$oid":"5d499f2118e37cc9b264068c"},"code":"0601","name":"SAN FRANCISCO CHINAMECA"}
+{"_id":{"$oid":"5d499f1718e37cc9b264067c"},"code":"0505","name":"CIUDAD ARCE"}
+{"_id":{"$oid":"5d499f2318e37cc9b2640690"},"code":"0603","name":"ZACATECOLUCA"}
+{"_id":{"$oid":"5d44afed7828cd638795a16a"},"code":"11","name":"SAN VICENTE"}
+{"_id":{"$oid":"5d499f0f18e37cc9b2640672"},"code":"0413","name":"SUCHITOTO"}
+{"_id":{"$oid":"5d499f1f18e37cc9b264068a"},"code":"0512","name":"LOURDES COLON"}
+{"_id":{"$oid":"5d499f1a18e37cc9b2640682"},"code":"0508","name":"ZARAGOZA"}
+{"_id":{"$oid":"5d499f2618e37cc9b2640696"},"code":"0606","name":"OLOCUILTA"}
+{"_id":{"$oid":"5d44b00a7828cd638795a7e7"},"code":"13","name":"SONSONATE"}
+{"_id":{"$oid":"5d499ef318e37cc9b2640640"},"code":"0105","name":"GUAYMANGO"}
+{"_id":{"$oid":"5d499f0718e37cc9b2640664"},"code":"0406","name":"SAN CRISTOBAL"}
+{"_id":{"$oid":"5d499f0a18e37cc9b2640668"},"code":"0408","name":"MONTE SAN JUAN"}
+{"_id":{"$oid":"5d499f1d18e37cc9b2640686"},"code":"0510","name":"CANGREJERA"}
+{"_id":{"$oid":"5d499f2718e37cc9b2640698"},"code":"0607","name":"SANTIAGO NONUALCO"}
+{"_id":{"$oid":"5d499ef118e37cc9b264063c"},"code":"0103","name":"SAN JOSE EL NARANJO (JUJUTLA)"}
+{"_id":{"$oid":"5d499efc18e37cc9b264064e"},"code":"0207","name":"SENSUNTEPEQUE"}
+{"_id":{"$oid":"5d499f1618e37cc9b264067a"},"code":"0504","name":"OPICO"}
+{"_id":{"$oid":"5d499efa18e37cc9b264064a"},"code":"0205","name":"SENSUNTE SENSUNTEPEQUE"}
+{"_id":{"$oid":"5d499f1118e37cc9b2640676"},"code":"0502","name":"QUEZALTEPEQUE"}
+{"_id":{"$oid":"5d499f2418e37cc9b2640692"},"code":"0604","name":"SAN JUAN NONUALCO"}
+{"_id":{"$oid":"5d499f2518e37cc9b2640694"},"code":"0605","name":"SAN LUIS LA HERRADURA"}
+{"_id":{"$oid":"5d44afe57828cd6387959e5a"},"code":"10","name":"SAN SALVADOR"}
+{"_id":{"$oid":"5d499f0c18e37cc9b264066c"},"code":"0410","name":"EL CARMEN"}
+{"_id":{"$oid":"5d499f1018e37cc9b2640674"},"code":"0501","name":"COLON"}
+{"_id":{"$oid":"5d499f2218e37cc9b264068e"},"code":"0602","name":"SAN LUIS TALPA"}
+{"_id":{"$oid":"5d499f2d18e37cc9b26406a2"},"code":"0701","name":"BOLIVAR"}
+{"_id":{"$oid":"5d499f2e18e37cc9b26406a4"},"code":"0702","name":"CONCEPCION DE ORIENTE"}
+{"_id":{"$oid":"5d499f3b18e37cc9b26406bc"},"code":"0810","name":"JOCORO"}
+{"_id":{"$oid":"5d499f3018e37cc9b26406a8"},"code":"0704","name":"SANTA ROSA DE LIMA"}
+{"_id":{"$oid":"5d499f6818e37cc9b264070c"},"code":"1108","name":"JERUSALEN"}
+{"_id":{"$oid":"5d499f6b18e37cc9b2640710"},"code":"1110","name":"GUADALUPE"}
+{"_id":{"$oid":"5d499f9818e37cc9b2640762"},"code":"1417","name":"CONCEPCION BATRES"}
+{"_id":{"$oid":"5d499f9c18e37cc9b2640764"},"code":"1418","name":"OZATLAN"}
+{"_id":{"$oid":"5d499f9d18e37cc9b2640766"},"code":"1419","name":"SANTA MARIA"}
+{"_id":{"$oid":"5d499f2c18e37cc9b26406a0"},"code":"0611","name":"ROSARIO LA PAZ"}
+{"_id":{"$oid":"5d499f3818e37cc9b26406b6"},"code":"0807","name":"YAMABAL"}
+{"_id":{"$oid":"5d499f8818e37cc9b2640744"},"code":"1402","name":"BERLIN"}
+{"_id":{"$oid":"5d499f2f18e37cc9b26406a6"},"code":"0703","name":"YAYANTIQUE"}
+{"_id":{"$oid":"5d499f9618e37cc9b264075e"},"code":"1415","name":"JUCUARAN"}
+{"_id":{"$oid":"5d499f3e18e37cc9b26406c0"},"code":"0901","name":"CHINAMECA"}
+{"_id":{"$oid":"5d499f4318e37cc9b26406c8"},"code":"0905","name":"SAN MIGUEL"}
+{"_id":{"$oid":"5d499f5818e37cc9b26406ee"},"code":"1014","name":"CUSCATANCINGO"}
+{"_id":{"$oid":"5d499f5a18e37cc9b26406f2"},"code":"1016","name":"AYUTUSTEPEQUE"}
+{"_id":{"$oid":"5d499f5f18e37cc9b26406fa"},"code":"1020","name":"BO. MODELO"}
+{"_id":{"$oid":"5d499f7018e37cc9b2640718"},"code":"1204","name":"7 PPES"}
+{"_id":{"$oid":"5d499f7418e37cc9b2640720"},"code":"1208","name":"EL PAJONAL"}
+{"_id":{"$oid":"5d499f8418e37cc9b264073c"},"code":"1309","name":"SAN JULIAN"}
+{"_id":{"$oid":"5d499f8b18e37cc9b264074a"},"code":"1405","name":"ALEGRIA"}
+{"_id":{"$oid":"5d499f2918e37cc9b264069c"},"code":"0609","name":"TAPALHUACA"}
+{"_id":{"$oid":"5d499f3718e37cc9b26406b4"},"code":"0806","name":"LOLOTIQUILLO"}
+{"_id":{"$oid":"5d499f4118e37cc9b26406c6"},"code":"0904","name":"CHIRILAGUA"}
+{"_id":{"$oid":"5d499f4818e37cc9b26406d2"},"code":"0910","name":"SAN RAFAEL ORIENTE"}
+{"_id":{"$oid":"5d499f5718e37cc9b26406ec"},"code":"1013","name":"AYUTUXTEPEQUE"}
+{"_id":{"$oid":"5d499f6e18e37cc9b2640714"},"code":"1202","name":"CANDELARIA"}
+{"_id":{"$oid":"5d499f7f18e37cc9b2640734"},"code":"1305","name":"MIZATA"}
+{"_id":{"$oid":"5d499f8c18e37cc9b264074c"},"code":"1406","name":"SAN BUENAVENTURA"}
+{"_id":{"$oid":"5d499f8d18e37cc9b264074e"},"code":"1407","name":"JUCUAPA"}
+{"_id":{"$oid":"5d499f8f18e37cc9b2640752"},"code":"1409","name":"TECAPAN"}
+{"_id":{"$oid":"5d499f9418e37cc9b264075a"},"code":"1413","name":"CALIFORNIA"}
+{"_id":{"$oid":"5d499f2a18e37cc9b264069e"},"code":"0610","name":"SAN PEDRO NONUALCO"}
+{"_id":{"$oid":"5d499f3518e37cc9b26406b0"},"code":"0804","name":"SAN SIMON"}
+{"_id":{"$oid":"5d499f3118e37cc9b26406aa"},"code":"0801","name":"CACAOPERA"}
+{"_id":{"$oid":"5d499f3318e37cc9b26406ac"},"code":"0802","name":"GUATAJIAGUA"}
+{"_id":{"$oid":"5d499f5918e37cc9b26406f0"},"code":"1015","name":"MEJICANOS"}
+{"_id":{"$oid":"5d499f6d18e37cc9b2640712"},"code":"1201","name":"SANTA ANA"}
+{"_id":{"$oid":"5d499f7d18e37cc9b2640730"},"code":"1303","name":"NAHUIZALCO"}
+{"_id":{"$oid":"5d499f4c18e37cc9b26406da"},"code":"1004","name":"SOYAPANGO"}
+{"_id":{"$oid":"5d499f3d18e37cc9b26406be"},"code":"0811","name":"SAN FRANCISCO GOTERA"}
+{"_id":{"$oid":"5d499f4e18e37cc9b26406dc"},"code":"1005","name":"NEJAPA"}
+{"_id":{"$oid":"5d499f4518e37cc9b26406cc"},"code":"0907","name":"SAN GERARDO"}
+{"_id":{"$oid":"5d499f5018e37cc9b26406e0"},"code":"1007","name":"AGUILARES"}
+{"_id":{"$oid":"5d499f6618e37cc9b2640708"},"code":"1106","name":"VERAPAZ"}
+{"_id":{"$oid":"5d499f8518e37cc9b264073e"},"code":"1310","name":"SONSONATE"}
+{"_id":{"$oid":"5d499f9518e37cc9b264075c"},"code":"1414","name":"PUERTO EL TRIUNFO"}
+{"_id":{"$oid":"5d499f3a18e37cc9b26406ba"},"code":"0809","name":"CORINTO"}
+{"_id":{"$oid":"5d499f3f18e37cc9b26406c2"},"code":"0902","name":"LOLOTIQUE"}
+{"_id":{"$oid":"5d499f5e18e37cc9b26406f8"},"code":"1019","name":"PLANES DE RENDERO"}
+{"_id":{"$oid":"5d499f6218e37cc9b2640700"},"code":"1102","name":"APASTEPEQUE"}
+{"_id":{"$oid":"5d499f6f18e37cc9b2640716"},"code":"1203","name":"TEXISTEPEQUE"}
+{"_id":{"$oid":"5d499f7518e37cc9b2640722"},"code":"1209","name":"METAPAN"}
+{"_id":{"$oid":"5d499f7818e37cc9b2640728"},"code":"1212","name":"ATIQUIZAYA"}
+{"_id":{"$oid":"5d499f9318e37cc9b2640758"},"code":"1412","name":"SANTIAGO DE MARIA"}
+{"_id":{"$oid":"5d499f4f18e37cc9b26406de"},"code":"1006","name":"PANCHIMALCO"}
+{"_id":{"$oid":"5d499f5618e37cc9b26406ea"},"code":"1012","name":"SAN SALVADOR"}
+{"_id":{"$oid":"5d499f5c18e37cc9b26406f6"},"code":"1018","name":"SAN JACINTO"}
+{"_id":{"$oid":"5d499f6318e37cc9b2640702"},"code":"1103","name":"TECOLUCA"}
+{"_id":{"$oid":"5d499f7e18e37cc9b2640732"},"code":"1304","name":"IZALCO"}
+{"_id":{"$oid":"5d499f8618e37cc9b2640740"},"code":"1311","name":"ACAJUTLA"}
+{"_id":{"$oid":"5d499f9018e37cc9b2640754"},"code":"1410","name":"SANTA ELENA"}
+{"_id":{"$oid":"5d499f4b18e37cc9b26406d8"},"code":"1003","name":"CIUDAD DELGADO"}
+{"_id":{"$oid":"5d499f3418e37cc9b26406ae"},"code":"0803","name":"SOCIEDAD"}
+{"_id":{"$oid":"5d499f5318e37cc9b26406e6"},"code":"1010","name":"APOPA"}
+{"_id":{"$oid":"5d499f6118e37cc9b26406fe"},"code":"1101","name":"SAN CAYETANO ISTEPQUE"}
+{"_id":{"$oid":"5d499f6718e37cc9b264070a"},"code":"1107","name":"SAN VICENTE"}
+{"_id":{"$oid":"5d499f7218e37cc9b264071c"},"code":"1206","name":"MASAHUAT"}
+{"_id":{"$oid":"5d499f8a18e37cc9b2640748"},"code":"1404","name":"ESTANZUELA"}
+{"_id":{"$oid":"5d499f5b18e37cc9b26406f4"},"code":"1017","name":"SAN MARCOS"}
+{"_id":{"$oid":"5d499f3618e37cc9b26406b2"},"code":"0805","name":"DELICIAS DE CONCEPCION"}
+{"_id":{"$oid":"5d499f3918e37cc9b26406b8"},"code":"0808","name":"CHILANGA"}
+{"_id":{"$oid":"5d499f4018e37cc9b26406c4"},"code":"0903","name":"QUELEPA"}
+{"_id":{"$oid":"5d499f4718e37cc9b26406d0"},"code":"0909","name":"EL TRANSITO"}
+{"_id":{"$oid":"5d499f5418e37cc9b26406e8"},"code":"1011","name":"ILOPANGO"}
+{"_id":{"$oid":"5d499f6a18e37cc9b264070e"},"code":"1109","name":"SAN ILDEFONDO"}
+{"_id":{"$oid":"5d499f7918e37cc9b264072a"},"code":"1213","name":"SN JERONIMO"}
+{"_id":{"$oid":"5d499f7a18e37cc9b264072c"},"code":"1301","name":"METALIO/ACAJUTLA"}
+{"_id":{"$oid":"5d499f9118e37cc9b2640756"},"code":"1411","name":"EREGUAYQUIN"}
+{"_id":{"$oid":"5d499f9f18e37cc9b2640768"},"code":"1420","name":"JIQUILISCO"}
+{"_id":{"$oid":"5d499f4918e37cc9b26406d4"},"code":"1001","name":"SAN MARTIN"}
+{"_id":{"$oid":"5d499f4418e37cc9b26406ca"},"code":"0906","name":"SESORI"}
+{"_id":{"$oid":"5d499f4618e37cc9b26406ce"},"code":"0908","name":"SAN JORGE"}
+{"_id":{"$oid":"5d499f6018e37cc9b26406fc"},"code":"1021","name":"SAN MAROS"}
+{"_id":{"$oid":"5d499f7118e37cc9b264071a"},"code":"1205","name":"CTON SAN JACINTO"}
+{"_id":{"$oid":"5d499f7318e37cc9b264071e"},"code":"1207","name":"PRIMAVERA"}
+{"_id":{"$oid":"5d499f7c18e37cc9b264072e"},"code":"1302","name":"SAN ANTONIO DEL MONTE"}
+{"_id":{"$oid":"5d499f8718e37cc9b2640742"},"code":"1401","name":"NUEVA GRANADA"}
+{"_id":{"$oid":"5d499f6418e37cc9b2640704"},"code":"1104","name":"MERCEDES LA CEIBA"}
+{"_id":{"$oid":"5d499f8118e37cc9b2640736"},"code":"1306","name":"ARMENIA"}
+{"_id":{"$oid":"5d499f8e18e37cc9b2640750"},"code":"1408","name":"MERCEDES UMAÑA"}
+{"_id":{"$oid":"5d499f9718e37cc9b2640760"},"code":"1416","name":"SAN FRANCISCO JAVIER"}
+{"_id":{"$oid":"5d499f6518e37cc9b2640706"},"code":"1105","name":"TEPETITAN"}
+{"_id":{"$oid":"5d499f7718e37cc9b2640726"},"code":"1211","name":"COATEPEQUE"}
+{"_id":{"$oid":"5d499f8318e37cc9b264073a"},"code":"1308","name":"JUAYUA"}
+{"_id":{"$oid":"5d499f8918e37cc9b2640746"},"code":"1403","name":"MERCEDES UMAÑA"}
+{"_id":{"$oid":"5d499f4a18e37cc9b26406d6"},"code":"1002","name":"TONACATEPEQUE"}
+{"_id":{"$oid":"5d499f5118e37cc9b26406e2"},"code":"1008","name":"ROSARIO DE MORA"}
+{"_id":{"$oid":"5d499f5218e37cc9b26406e4"},"code":"1009","name":"GUAZAPA"}
+{"_id":{"$oid":"5d499f7618e37cc9b2640724"},"code":"1210","name":"CHALCHUAPA"}
+{"_id":{"$oid":"5d499f8218e37cc9b2640738"},"code":"1307","name":"SAN JOSE LA MAJADA"}
