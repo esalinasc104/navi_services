@@ -56,14 +56,17 @@ class Zones(models.Model):
     geo_type = models.CharField(max_length=2, choices=zone_type, default="1")
     coordinates = models.ArrayModelField(model_container=CoordinateZone, blank=True)
 
-    def as_json(self):
+    def as_json(self, get_coordinates=True):
+        list_coordinates = []
+        if get_coordinates:
+            list_coordinates = [ob.as_json() for ob in self.coordinates]
         return dict(
             _id=str(self._id),
             name=self.name,
             location=self.location.as_json(),
             state=self.state,
             geo_type=self.geo_type,
-            coordinates=[ob.as_json() for ob in self.coordinates]
+            coordinates=list_coordinates
         )
 
     def __str__(self):
@@ -105,7 +108,7 @@ class DangerRangeZone(models.Model):
     acoso_sexual = models.BooleanField()
     vandalismo = models.BooleanField()
 
-    added = models.DateTimeField(auto_created=True)
+    added = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
 
     class Meta:
@@ -119,6 +122,44 @@ class DangerRangeZone(models.Model):
     @property
     def location(self):
         return '' + self.zone.location.name + "\n si cambias la zona, guarda nuevamente para actualizar este valor automaticamente"
+
+    def as_json(self):
+        crimes = {
+            "asesinatos": self.asesinatos,
+            "robo_asaltos": self.robo_asaltos,
+            "agresion_acoso": self.agresion_acoso,
+            "robo_autos": self.robo_autos,
+            "acoso_sexual": self.acoso_sexual,
+            "vandalismo": self.vandalismo
+        }
+        return dict(
+            id=str(self._id),
+            zone=self.zone.as_json(get_coordinates=False),
+            level_danger=self.code_danger,
+            is_presencia_de_delincuentes=self.is_presencia_de_delincuentes,
+            is_ingresar_a_la_zona_controlado=self.is_ingresar_a_la_zona_controlado,
+            is_existe_renta_por_entrar_habitar=self.is_existe_renta_por_entrar_habitar,
+            is_drogas=self.is_drogas,
+            hora_minima=self.hora_minima,
+            hora_maxima=self.hora_maxima,
+            crimenes=crimes
+        )
+
+    def parser_to_obj(self, form):
+        self.zone = Zones.objects.get(_id=form.get('zone'))
+        self.code_danger = form.get("level_danger")
+        self.is_presencia_de_delincuentes = form.get("is_presencia_de_delincuentes")
+        self.is_ingresar_a_la_zona_controlado = form.get("is_ingresar_a_la_zona_controlado")
+        self.is_existe_renta_por_entrar_habitar = form.get("is_existe_renta_por_entrar_habitar")
+        self.is_drogas = form.get("is_drogas")
+        self.hora_minima = form.get("hora_minima")
+        self.hora_maxima = form.get("hora_maxima")
+        self.asesinatos = form.get("asesinatos")
+        self.robo_asaltos = form.get("robo_asaltos")
+        self.agresion_acoso = form.get("agresion_acoso")
+        self.robo_autos = form.get("robo_autos")
+        self.acoso_sexual = form.get("acoso_sexual")
+        self.vandalismo = form.get("vandalismo")
 
 
 class DangerRangeZoneForm(forms.ModelForm):
