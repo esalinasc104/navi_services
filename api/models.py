@@ -64,8 +64,8 @@ class Zones(models.Model):
             _id=str(self._id),
             name=self.name,
             location=self.location.as_json(),
-            state=self.state,
-            geo_type=self.geo_type,
+            state=str(self.state),
+            geo_type=str(self.geo_type),
             coordinates=list_coordinates
         )
 
