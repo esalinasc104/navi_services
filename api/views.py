@@ -19,7 +19,6 @@ def index(request):
 def query(request):
     return zones_services.query_zone_data(request)
 
-
 @csrf_exempt
 def save_report(request):
     return report_service.save_report(request)
