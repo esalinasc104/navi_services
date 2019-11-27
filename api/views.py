@@ -19,10 +19,17 @@ def index(request):
 def query(request):
     return zones_services.query_zone_data(request)
 
+
 @csrf_exempt
 def save_report(request):
     return report_service.save_report(request)
 
+
 @csrf_exempt
 def get_reports(request):
     return report_service.get_report_per_zone(request)
+
+
+@csrf_exempt
+def save_coordinates(request, zone_id):
+    return zones_services.update_coordinates(request, zone_id)
